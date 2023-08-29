@@ -1,0 +1,83 @@
+.containerHome {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    transition: background-color 5s ease;
+    min-height: 100vh;
+}
+
+.frase {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #fff;
+    color: #000;
+    padding: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-radius: 16px;
+    margin-top: 18px;
+    margin-bottom: 56px;
+}
+
+.main {
+    display: flex;
+    overflow: hidden;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 50px;
+    padding: 16px;
+}
+
+.button {
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row-reverse;
+    width: 100%;
+}
+
+.buttonNext {
+    margin-top: 50px;
+    background-color: #40B5B6;
+    border: none;
+    border-radius: 10px;
+    padding: 15px 25px;
+    cursor: pointer;
+    color: #000;
+    transition: border background-color color 0.3s ease;
+    font-weight: bold;  
+}
+
+.buttonNext:hover {
+    background-color: #40B5B6;
+}
+
+select {
+    padding-top: 5px;
+    padding-bottom: 5px;
+    margin-right: 10px;
+    margin-left: 10px;
+}
+
+.name {
+    font-size: 40px;
+}
+
+select {
+    border: 2px solid #ccc;
+    border-radius: 5px;
+    color: #333;
+    appearance: none;
+  }
+  
+  select option {
+    padding: 10px;
+  }
+  
+  select option:checked {
+    background-color: #007bff;
+    color: white;
+  }
+  
